@@ -26,6 +26,11 @@ export const FAQ = () => {
         'Unlike traditional methods that rely on human experts (subject to bias), Shenbury uses autonomous AI agents that operate locally without cloud dependencies. This ensures complete data privacy, eliminates single points of failure, and provides unbiased, data-driven verification.',
     },
     {
+      question: "What is Shenbury's revenue model?",
+      answer:
+        "The DAO generates revenue by charging protocol fees when verified assets are brought to market, such as through auction house partnerships or on-chain marketplaces. These fees contribute directly to the DAO treasury, funding operations and ecosystem growth.",
+    },
+    {
       question: 'How does the MetaDAO ICO work?',
       answer:
         'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets.',

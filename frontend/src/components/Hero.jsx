@@ -23,13 +23,13 @@ export const Hero = () => {
             </Badge>
 
             <h1 className="font-serif font-bold leading-tight">
-              Authenticate & Tokenize
+              Unlock Illiquid Art.
               <br />
-              <span className="text-gradient-gold">Cultural Treasures</span>
+              <span className="text-gradient-gold">AI-Verified. On-Chain.</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Revolutionary AI verification for high-value art and artifacts. Solving the oracle problem with autonomous, cryptographic-grade authentication.
+              Our autonomous AI oracle solves the art market's oracle problem. We provide cryptographic-grade verification for RWA tokenization, turning priceless relics into liquid assets.
             </p>
 
             {/* Trust Indicators */}

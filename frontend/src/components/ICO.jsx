@@ -122,6 +122,7 @@ export const ICO = () => {
               <div className="space-y-4">
                 {[
                   '$600-700M verified client pipeline',
+                  'Protocol fees on market transactions to grow DAO treasury',
                   'Fair launch model with community governance',
                   'Performance-based token unlock mechanism',
                   'Transparent monthly budget allocations',
