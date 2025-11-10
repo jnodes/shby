@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Premium Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+    :root {
+        /* Brand Colors - Dark Teal to Gold Gradient Theme */
+        --primary: 184 65% 25%;        /* Deep Teal: hsl(184, 65%, 25%) */
+        --primary-light: 184 55% 35%;   /* Medium Teal */
+        --primary-glow: 184 45% 45%;    /* Light Teal for glow effects */
+        
+        --secondary: 45 90% 55%;        /* Rich Gold: hsl(45, 90%, 55%) */
+        --secondary-light: 45 95% 65%;  /* Light Gold */
+        --secondary-dark: 45 85% 45%;   /* Deep Gold */
+        
+        --accent: 200 25% 92%;          /* Soft Silver-Blue */
+        --accent-dark: 200 15% 25%;     /* Dark Silver-Blue */
+        
+        /* Semantic Tokens */
+        --background: 220 18% 8%;       /* Deep Navy-Black */
+        --background-elevated: 220 15% 12%; /* Slightly lighter */
+        --foreground: 0 0% 98%;         /* Off-White */
+        
+        --card: 220 15% 12%;            /* Card background */
+        --card-foreground: 0 0% 95%;    /* Card text */
+        --card-border: 184 30% 30%;     /* Teal border */
+        
+        --muted: 220 15% 20%;           /* Muted background */
+        --muted-foreground: 220 10% 65%; /* Muted text */
+        
+        --border: 220 15% 18%;          /* Border color */
+        --input: 220 15% 15%;           /* Input background */
+        --ring: 184 65% 45%;            /* Focus ring - teal */
+        
+        /* Gradients */
+        --gradient-primary: linear-gradient(135deg, hsl(184 65% 25%) 0%, hsl(184 55% 35%) 50%, hsl(45 90% 55%) 100%);
+        --gradient-gold: linear-gradient(135deg, hsl(45 85% 45%) 0%, hsl(45 90% 55%) 50%, hsl(45 95% 65%) 100%);
+        --gradient-teal: linear-gradient(180deg, hsl(184 65% 25%) 0%, hsl(184 45% 35%) 100%);
+        --gradient-subtle: linear-gradient(180deg, hsl(220 18% 8%) 0%, hsl(220 15% 12%) 100%);
+        --gradient-overlay: linear-gradient(135deg, hsl(184 65% 25% / 0.3) 0%, hsl(220 18% 8% / 0.4) 100%);
+        
+        /* Shadows & Glows */
+        --shadow-elegant: 0 10px 40px -10px hsl(184 65% 25% / 0.4);
+        --shadow-gold: 0 10px 30px -5px hsl(45 90% 55% / 0.3);
+        --shadow-heavy: 0 20px 60px -15px hsl(0 0% 0% / 0.6);
+        --glow-teal: 0 0 40px hsl(184 65% 45% / 0.4);
+        --glow-gold: 0 0 60px hsl(45 90% 55% / 0.5);
+        
+        /* Glass Effect */
+        --glass-bg: hsl(220 15% 12% / 0.6);
+        --glass-border: hsl(184 30% 40% / 0.2);
+        
+        /* Animations */
+        --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        --transition-spring: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+        
+        /* Spacing Scale */
+        --radius: 0.75rem;
+        --radius-lg: 1rem;
+        --radius-xl: 1.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+    
+    h1 {
+        @apply text-5xl sm:text-6xl lg:text-7xl leading-tight;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    h2 {
+        @apply text-3xl sm:text-4xl lg:text-5xl leading-tight;
+    }
+    
+    h3 {
+        @apply text-2xl sm:text-3xl leading-snug;
+    }
+}
+
+/* Custom Utilities */
+@layer utilities {
+    .text-gradient-primary {
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .text-gradient-gold {
+        background: var(--gradient-gold);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .glass {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px) saturate(180%);
+        -webkit-backdrop-filter: blur(12px) saturate(180%);
+        border: 1px solid var(--glass-border);
+    }
+    
+    .glow-teal {
+        box-shadow: var(--glow-teal);
+    }
+    
+    .glow-gold {
+        box-shadow: var(--glow-gold);
+    }
+    
+    .shadow-elegant {
+        box-shadow: var(--shadow-elegant);
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection */
+::selection {
+    background: hsl(184 65% 45% / 0.3);
+    color: hsl(0 0% 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(220 18% 8%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(184 65% 25%);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(184 55% 35%);
+}
+
+/* No transition on transforms to avoid breaking animations */
+.hover-lift {
+    transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Gradient animation for hero */
+@keyframes gradientShift {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 8s ease infinite;
+}
