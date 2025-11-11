@@ -14,6 +14,7 @@ export const Footer = () => {
     Resources: [
       { name: 'Whitepaper', href: '/whitepaper' },
       { name: 'Technical Paper', href: '/technical-paper' },
+      { name: 'Operating Agreement', href: '/operating-agreement' },
       { name: 'GitHub', href: 'https://github.com/jnodes/shenbury-ai' },
     ],
     Company: [

@@ -12,6 +12,7 @@ import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { Whitepaper } from './pages/Whitepaper';
 import { TechnicalPaper } from './pages/TechnicalPaper';
+import { OperatingAgreement } from './pages/OperatingAgreement';
 import './App.css';
 
 const Home = () => {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/whitepaper" element={<Whitepaper />} />
           <Route path="/technical-paper" element={<TechnicalPaper />} />
+          <Route path="/operating-agreement" element={<OperatingAgreement />} />
         </Routes>
       </BrowserRouter>
     </div>
