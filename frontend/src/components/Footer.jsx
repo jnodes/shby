@@ -96,16 +96,6 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground text-center md:text-left">
               © {currentYear} Shenbury Project. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary-glow transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-primary-glow transition-colors">Terms of Service</a>
-              <a
-                href="/whitepaper"
-                className="hover:text-primary-glow transition-colors"
-              >
-                Legal
-              </a>
-            </div>
           </div>
           <p className="text-xs text-muted-foreground text-center mt-4">
             Disclaimer: This is a technology-focused tokenization project. The value of digital assets is volatile.
