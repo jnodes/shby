@@ -163,60 +163,61 @@ export const RelicGallery = () => {
           </p>
         </div>
 
-        {/* Gallery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {/* Masonry Gallery */}
+        <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6">
           {relics.map((relic) => (
-            <Card 
-              key={relic.id}
-              className="glass border-card-border hover-lift transition-all duration-300 overflow-hidden"
-              onMouseEnter={() => setHoveredRelic(relic.id)}
-              onMouseLeave={() => setHoveredRelic(null)}
-            >
-              <div className="relative aspect-square overflow-hidden">
-                <img
-                  src={relic.mainImage}
-                  alt={relic.title}
-                  className="w-full h-full object-cover transition-transform duration-500"
-                  style={{ transform: hoveredRelic === relic.id ? 'scale(1.05)' : 'scale(1)' }}
-                />
-                
-                {/* Verification Badge */}
-                <div className="absolute top-3 left-3 glass px-2 py-1 rounded-lg border border-warning/10 bg-background/40 backdrop-blur-sm">
-                  <div className="flex items-center gap-1.5">
-                    <CheckCircle2 className="w-3 h-3 text-warning" />
-                    <span className="text-xs font-medium text-warning">In Pipeline</span>
+            <div key={relic.id} className="mb-6 break-inside-avoid">
+              <Card 
+                className="glass border-card-border hover-lift transition-all duration-300 overflow-hidden"
+                onMouseEnter={() => setHoveredRelic(relic.id)}
+                onMouseLeave={() => setHoveredRelic(null)}
+              >
+                <div className="relative overflow-hidden">
+                  <img
+                    src={relic.mainImage}
+                    alt={relic.title}
+                    className="w-full h-auto object-cover transition-transform duration-500"
+                    style={{ transform: hoveredRelic === relic.id ? 'scale(1.05)' : 'scale(1)' }}
+                  />
+                  
+                  {/* Verification Badge */}
+                  <div className="absolute top-3 left-3 glass px-2 py-1 rounded-lg border border-warning/10 bg-background/40 backdrop-blur-sm">
+                    <div className="flex items-center gap-1.5">
+                      <CheckCircle2 className="w-3 h-3 text-warning" />
+                      <span className="text-xs font-medium text-warning">In Pipeline</span>
+                    </div>
+                  </div>
+                  
+                  {/* AI Evaluation */}
+                  <div className="absolute bottom-3 left-3 glass px-2 py-1 rounded-lg border border-secondary/10 bg-background/40 backdrop-blur-sm">
+                    <span className="text-xs font-medium text-foreground">{relic.aiEvaluation}</span>
                   </div>
                 </div>
                 
-                {/* AI Evaluation */}
-                <div className="absolute bottom-3 left-3 glass px-2 py-1 rounded-lg border border-secondary/10 bg-background/40 backdrop-blur-sm">
-                  <span className="text-xs font-medium text-foreground">{relic.aiEvaluation}</span>
-                </div>
-              </div>
-              
-              <CardContent className="p-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <Badge variant="outline" className="border-primary/30 text-primary-glow text-xs">
-                    Lot #{relic.lotNumber}
-                  </Badge>
-                  <Badge variant="outline" className="border-warning/30 text-warning text-xs">
-                    {relic.dynasty}
-                  </Badge>
-                </div>
-                
-                <h3 className="font-serif font-semibold text-foreground mb-1 line-clamp-2">
-                  {relic.title}
-                </h3>
-                
-                <p className="text-sm text-muted-foreground mb-2 line-clamp-1">
-                  {relic.chinese}
-                </p>
-                
-                <p className="text-xs text-muted-foreground">
-                  {relic.dynastyPeriod}
-                </p>
-              </CardContent>
-            </Card>
+                <CardContent className="p-4">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Badge variant="outline" className="border-primary/30 text-primary-glow text-xs">
+                      Lot #{relic.lotNumber}
+                    </Badge>
+                    <Badge variant="outline" className="border-warning/30 text-warning text-xs">
+                      {relic.dynasty}
+                    </Badge>
+                  </div>
+                  
+                  <h3 className="font-serif font-semibold text-foreground mb-1 line-clamp-2">
+                    {relic.title}
+                  </h3>
+                  
+                  <p className="text-sm text-muted-foreground mb-2 line-clamp-1">
+                    {relic.chinese}
+                  </p>
+                  
+                  <p className="text-xs text-muted-foreground">
+                    {relic.dynastyPeriod}
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           ))}
         </div>
 
