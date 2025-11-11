@@ -7,7 +7,7 @@ Shenbury labs is focused on developing innovative solutions for asset verificati
 Our core innovation is:
 **The Technology:** Our proprietary Shenbury AI-Powered Protocol, a local-first AI swarm built to verify assets and solve the "oracle problem" for RWA tokenization.
 
-We're preparing for our MetaDAO ICO launch with a minimum raise amount of $300,000 and a team monthly budget of $25,000, supporting our $600-700M collectable pipeline.
+We're preparing for our MetaDAO ICO launch with a minimum raise amount of $300,000 and a team monthly budget of $15,000, supporting our $600-700M collectable pipeline.
 
 **[English Version](README.md) | [中文版](README-zh.md)**
 
