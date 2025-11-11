@@ -14,8 +14,8 @@ export const RelicGallery = () => {
       dynasty: 'Northern Song Dynasty',
       dynastyPeriod: '1086-1106',
       mainImage: '/images/relics/001-song-ru-washer/main.jpg',
-      aiEvaluation: '$45,000,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $45,000,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '002',
@@ -25,8 +25,8 @@ export const RelicGallery = () => {
       dynasty: 'Northern Song Dynasty',
       dynastyPeriod: '1086-1106',
       mainImage: '/images/relics/002-song-ru-bottle/main.jpg',
-      aiEvaluation: '$28,000,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $28,000,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '003',
@@ -36,8 +36,8 @@ export const RelicGallery = () => {
       dynasty: 'Ming Dynasty',
       dynastyPeriod: '1425-1435',
       mainImage: '/images/relics/003-ming-cloisonne/main.jpg',
-      aiEvaluation: '$12,500,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $12,500,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '004',
@@ -47,8 +47,8 @@ export const RelicGallery = () => {
       dynasty: 'Yuan Dynasty',
       dynastyPeriod: '1271-1368',
       mainImage: '/images/relics/004-yuan-jilan-ewer/main.jpg',
-      aiEvaluation: '$8,200,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $8,200,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '005',
@@ -58,8 +58,8 @@ export const RelicGallery = () => {
       dynasty: 'Ming Dynasty',
       dynastyPeriod: '1450-1456',
       mainImage: '/images/relics/005-ming-jingtai-casket/main.jpg',
-      aiEvaluation: '$15,800,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $15,800,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '006',
@@ -68,9 +68,9 @@ export const RelicGallery = () => {
       chinese: '元 龍泉窯青瓷梅瓶',
       dynasty: 'Yuan Dynasty',
       dynastyPeriod: '1271-1368',
-      mainImage: '/images/relics/006-yuan-celadon-glazed-jar/main.jpg',
-      aiEvaluation: '$6,400,000',
-      verificationStatus: 'Blockchain Verified',
+      mainImage: '/images/relics/006-yuan-celadon-glazed-jar/main.jpeg',
+      aiEvaluation: 'Est. $6,400,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '007',
@@ -80,8 +80,8 @@ export const RelicGallery = () => {
       dynasty: 'Qing Dynasty',
       dynastyPeriod: '1722-1735',
       mainImage: '/images/relics/007-floral-harmony-vase/main.jpg',
-      aiEvaluation: '$9,600,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $9,600,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '008',
@@ -91,8 +91,8 @@ export const RelicGallery = () => {
       dynasty: 'Qing Dynasty',
       dynastyPeriod: '1735-1796',
       mainImage: '/images/relics/008-imperial-lotus-bottle/main.jpg',
-      aiEvaluation: '$7,300,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $7,300,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '009',
@@ -102,8 +102,8 @@ export const RelicGallery = () => {
       dynasty: 'Ming Dynasty',
       dynastyPeriod: '1425-1435',
       mainImage: '/images/relics/009-imperial-cloisonne-tripod/main.jpg',
-      aiEvaluation: '$11,200,000',
-      verificationStatus: 'Blockchain Verified',
+      aiEvaluation: 'Est. $11,200,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '010',
@@ -112,9 +112,9 @@ export const RelicGallery = () => {
       chinese: '宋 鈞窯天藍釉八方盆',
       dynasty: 'Song Dynasty',
       dynastyPeriod: '1110-1127',
-      mainImage: '/images/relics/010-junyao-octagon-vessel/main.jpg',
-      aiEvaluation: '$13,700,000',
-      verificationStatus: 'Blockchain Verified',
+      mainImage: '/images/relics/010-junyao-octagon-vessel/main.jpeg',
+      aiEvaluation: 'Est. $13,700,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '011',
@@ -123,9 +123,9 @@ export const RelicGallery = () => {
       chinese: '元 青花雲龍紋梅瓶',
       dynasty: 'Yuan Dynasty',
       dynastyPeriod: '1300-1350',
-      mainImage: '/images/relics/011-yuan-blue-white-porcelain-pot/main.jpg',
-      aiEvaluation: '$18,900,000',
-      verificationStatus: 'Blockchain Verified',
+      mainImage: '/images/relics/011-yuan-blue-white-porcelain-pot/main.jpeg',
+      aiEvaluation: 'Est. $18,900,000',
+      verificationStatus: 'In Verification Pipeline',
     },
     {
       id: '012',
@@ -134,9 +134,9 @@ export const RelicGallery = () => {
       chinese: '北宋 汝窯天青釉玉壺春瓶',
       dynasty: 'Northern Song Dynasty',
       dynastyPeriod: '1086-1106',
-      mainImage: '/images/relics/012-ru-kiln-yuhuchun-vase/main.jpg',
-      aiEvaluation: '$32,000,000',
-      verificationStatus: 'Blockchain Verified',
+      mainImage: '/images/relics/012-ru-kiln-yuhuchun-vase/main.jpeg',
+      aiEvaluation: 'Est. $32,000,000',
+      verificationStatus: 'In Verification Pipeline',
     },
   ];
 
@@ -151,15 +151,15 @@ export const RelicGallery = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <Badge variant="outline" className="glass border-secondary/30 mb-4">
+          <Badge variant="outline" className="glass border-warning/30 mb-4">
             <Shield className="w-4 h-4 mr-2 inline" />
-            Authenticated Collection
+            Verification Pipeline
           </Badge>
           <h2 className="font-serif font-bold mb-6">
             <span className="text-gradient-gold">Relic Gallery</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Explore our authenticated collection of museum-quality cultural treasures, verified by autonomous AI agents and secured on the blockchain.
+            Explore our collection of cultural treasures in the verification pipeline. These artifacts are undergoing authentication by our autonomous AI agents.
           </p>
         </div>
 
@@ -181,10 +181,10 @@ export const RelicGallery = () => {
                 />
                 
                 {/* Verification Badge */}
-                <div className="absolute top-3 left-3 glass px-2 py-1 rounded-lg border border-secondary/10 bg-background/40 backdrop-blur-sm">
+                <div className="absolute top-3 left-3 glass px-2 py-1 rounded-lg border border-warning/10 bg-background/40 backdrop-blur-sm">
                   <div className="flex items-center gap-1.5">
-                    <CheckCircle2 className="w-3 h-3 text-secondary" />
-                    <span className="text-xs font-medium text-secondary">Verified</span>
+                    <CheckCircle2 className="w-3 h-3 text-warning" />
+                    <span className="text-xs font-medium text-warning">In Pipeline</span>
                   </div>
                 </div>
                 
@@ -199,7 +199,7 @@ export const RelicGallery = () => {
                   <Badge variant="outline" className="border-primary/30 text-primary-glow text-xs">
                     Lot #{relic.lotNumber}
                   </Badge>
-                  <Badge variant="outline" className="border-secondary/30 text-secondary text-xs">
+                  <Badge variant="outline" className="border-warning/30 text-warning text-xs">
                     {relic.dynasty}
                   </Badge>
                 </div>
