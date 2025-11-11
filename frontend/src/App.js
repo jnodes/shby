@@ -14,6 +14,7 @@ import { Whitepaper } from './pages/Whitepaper';
 import { TechnicalPaper } from './pages/TechnicalPaper';
 import { OperatingAgreement } from './pages/OperatingAgreement';
 import { TermsAndConditions } from './pages/TermsAndConditions';
+import { RelicGallery } from './components/RelicGallery';
 import './App.css';
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
       <Hero />
       <Technology />
       <Features />
-      <AuthenticatedRelics />
+      <RelicGallery />
       <HowItWorks />
       <ICO />
       <Team />
