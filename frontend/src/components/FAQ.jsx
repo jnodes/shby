@@ -38,7 +38,7 @@ export const FAQ = () => {
     {
       question: 'What is the minimum raise amount?',
       answer:
-        'The minimum raise for our ICO is $300,000. Funds will support our $50,000 monthly team budget (1/6th of raise) and ecosystem development as we pursue our $600-700M client pipeline.',
+        'The minimum raise for our ICO is $300,000. Funds will support our $25,000 monthly team budget (1/12th of raise) and ecosystem development as we pursue our $600-700M client pipeline.',
     },
     {
       question: 'How does Shenbury ensure data privacy?',

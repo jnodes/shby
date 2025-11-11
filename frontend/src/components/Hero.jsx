@@ -23,7 +23,7 @@ export const Hero = () => {
             </Badge>
 
             <h1 className="font-serif font-bold leading-tight">
-              Unlock Illiquid Art.
+              Verify Assets.
               <br />
               <span className="text-gradient-gold">AI-Verified. On-Chain.</span>
             </h1>
