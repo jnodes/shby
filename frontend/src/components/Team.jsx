@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, FlaskConical } from 'lucide-react';
+import { Linkedin, Users } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
@@ -8,17 +8,16 @@ export const Team = () => {
   const teamMembers = [
     {
       name: 'Jesse Brown',
-      role: 'Founder & Chief Architect',
-      focus: 'AI Systems & Blockchain Infrastructure',
+      role: 'Project Lead',
+      focus: 'AI Engineering & RWA Tokenization',
       linkedin: 'https://linkedin.com/in/digitalassets',
-      image: 'https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/s2gsj75x_jesse-brown.png',
-      bio: 'Leading Shenbury\'s AI-powered authentication protocol with deep expertise in institutional-grade tokenization and multi-agent AI systems. Former Blockchain Architect at DTCC, where he built the Forbes Blockchain Award-winning private placement tokenization platform. Architected autonomous compliance systems for Web3 platforms and led technology strategy for Himalaya Exchange. Specialized in real-world asset tokenization, privacy-preserving technologies, and regulatory compliance frameworks.',
-      highlights: [
-        'Built DTCC\'s first distributed ledger technology project (Forbes Blockchain Award Winner 2020)',
-        'Architected multi-agent AI compliance systems with sub-3-second verification',
-        'Designed institutional-grade tokenization platforms for private placements',
-        'Expert in privacy-preserving tech, smart contracts, and regulatory compliance',
-      ],
+      bio: 'Jesse leads the Shenbury protocol, focusing on its mission to build the privacy-focused AI oracle for the $57.5B fine art and collectibles market. [cite_start]He is a pioneering Web3 AI Agent Engineer with deep expertise in architecting autonomous, multi-agent AI systems and institutional-grade tokenization platforms[cite: 6, 13, 74].',
+      keyAchievements: [
+        '[cite_start]\'Architected the **Forbes Blockchain Award-winning** (2020) institutional tokenization platform as **Blockchain Architect at DTCC**[cite: 26, 28, 71].',
+        '[cite_start]\'Cut asset settlement times from T+2 to near-instantaneous at DTCC[cite: 32].',
+        '[cite_start]\'Served as a **Blockchain Enterprise Architecture Consultant for Ford Motor Company**[cite: 47].',
+        '[cite_start]\'Engineered multi-agent AI compliance systems with sub-3-second verification[cite: 13].'
+      ]
     },
   ];
 
@@ -28,57 +27,52 @@ export const Team = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge variant="outline" className="glass border-primary/30 mb-4">
-            <FlaskConical className="w-4 h-4 mr-2 inline" />
-            Labs
+            <Users className="w-4 h-4 mr-2 inline" />
+            Leadership
           </Badge>
           <h2 className="font-serif font-bold mb-6 text-gradient-primary">
-            Shenbury Labs
+            Meet the Team
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Led by proven innovators in AI, blockchain, and institutional-grade asset tokenization.
+            Public leadership team committed to transparency, trust, and accountability in building the future of asset tokenization.
           </p>
         </div>
 
         {/* Team Members */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           {teamMembers.map((member, index) => (
             <Card
               key={index}
-              className="glass border-card-border hover-lift mb-8"
+              className="glass border-card-border"
             >
-              <CardContent className="pt-6">
-                <div className="flex flex-col md:flex-row gap-6">
-                  {/* Avatar */}
+              <CardContent className="pt-8">
+                <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+                  {/* Avatar Placeholder */}
                   <div className="flex-shrink-0 mx-auto md:mx-0">
-                    <div className="w-32 h-32 rounded-2xl overflow-hidden border-2 border-primary/20 shadow-elegant">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-primary flex items-center justify-center shadow-elegant">
+                      <span className="text-3xl md:text-4xl font-serif font-bold text-foreground">
+                        {member.name.split(' ').map(n => n[0]).join('')}
+                      </span>
                     </div>
                   </div>
 
                   {/* Member Info */}
-                  <div className="flex-grow">
-                    <div className="mb-4">
-                      <h3 className="text-2xl font-serif font-semibold text-foreground mb-1">
-                        {member.name}
-                      </h3>
-                      <p className="text-secondary font-medium mb-1">{member.role}</p>
-                      <p className="text-sm text-muted-foreground">{member.focus}</p>
-                    </div>
-
-                    <p className="text-muted-foreground leading-relaxed mb-4">
+                  <div className="flex-grow text-center md:text-left">
+                    <h3 className="text-2xl md:text-3xl font-serif font-semibold text-foreground mb-1">
+                      {member.name}
+                    </h3>
+                    <p className="text-secondary font-medium mb-3">{member.role}</p>
+                    <p className="text-sm text-muted-foreground mb-4">{member.focus}</p>
+                    <p className="text-muted-foreground leading-relaxed mb-6">
                       {member.bio}
                     </p>
-
-                    {/* Key Highlights */}
-                    <div className="space-y-2 mb-4">
-                      {member.highlights.map((highlight, idx) => (
-                        <div key={idx} className="flex items-start gap-2">
+                    
+                    {/* Key Achievements */}
+                    <div className="space-y-3 text-left mb-6">
+                      {member.keyAchievements.map((achievement, idx) => (
+                        <div key={idx} className="flex items-start gap-3">
                           <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
-                          <span className="text-sm text-muted-foreground">{highlight}</span>
+                          <p className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: achievement }} />
                         </div>
                       ))}
                     </div>
@@ -97,6 +91,19 @@ export const Team = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Additional Team Info */}
+        <div className="mt-12 text-center">
+          <Card className="glass border-card-border inline-block">
+            <CardContent className="pt-6">
+              <p className="text-muted-foreground">
+                <span className="font-semibold text-foreground">Additional team members</span> will be announced prior to ICO launch.
+                <br />
+                <span className="text-sm">We're committed to full transparency and public accountability.</span>
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
