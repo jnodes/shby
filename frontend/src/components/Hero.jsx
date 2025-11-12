@@ -44,7 +44,7 @@ export const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-primary-glow" />
-                <span className="text-sm text-muted-foreground">Local-First AI</span>
+                <span className="text-sm text-muted-foreground">Total Data Privacy</span>
               </div>
             </div>
 
@@ -72,12 +72,12 @@ export const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border/50">
               <div>
-                <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">$600M+</div>
-                <div className="text-sm text-muted-foreground mt-1">Client Pipeline</div>
+                <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">$57.5B</div>
+                <div className="text-sm text-muted-foreground mt-1">Global Market</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">$300K</div>
-                <div className="text-sm text-muted-foreground mt-1">Minimum Raise</div>
+                <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">$600M+</div>
+                <div className="text-sm text-muted-foreground mt-1">Client Pipeline</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">150x</div>
@@ -101,12 +101,12 @@ export const Hero = () => {
 
               {/* Floating Detail Card - Hidden on mobile to prevent overlay */}
               <button
-                onClick={() => document.getElementById('authenticated-relics')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('verified-assets')?.scrollIntoView({ behavior: 'smooth' })}
                 className="hidden lg:block absolute -bottom-6 -left-6 glass rounded-xl p-4 shadow-elegant hover-lift cursor-pointer group transition-all duration-300 hover:scale-105"
               >
                 <img
                   src="https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/cr3lvkmu_detail-1.jpg"
-                  alt="View Authenticated Artifacts"
+                  alt="View Verified Assets"
                   className="w-32 h-32 object-cover rounded-lg"
                 />
                 <div className="mt-2">
