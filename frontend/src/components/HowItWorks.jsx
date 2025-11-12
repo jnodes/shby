@@ -8,7 +8,7 @@ export const HowItWorks = () => {
       icon: Upload,
       number: '01',
       title: 'Data Ingestion',
-      description: 'Submit high-resolution 3D scans, chemical analysis reports, and historical documentation for the artifact.',
+      description: 'Submit high-resolution 3D scans, chemical analysis reports, and historical documentation for the asset.'
     },
     {
       icon: ScanSearch,
@@ -92,7 +92,7 @@ export const HowItWorks = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <p className="text-muted-foreground mb-4">
-            Ready to verify your cultural treasures?
+            Ready to verify your fine art and collectibles?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

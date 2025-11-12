@@ -13,12 +13,12 @@ export const FAQ = () => {
     {
       question: 'What is the Shenbury AI Protocol?',
       answer:
-        'The Shenbury AI-Powered Authentication Protocol is a decentralized, multi-agent AI system for cryptographic-grade verification of high-value cultural artifacts. It uses local-first AI agents, vector databases, and blockchain attestation to solve the oracle problem in RWA tokenization.',
+        'The Shenbury AI-Powered Authentication Protocol is a decentralized, multi-agent AI system for cryptographic-grade verification of museum-grade fine art and collectibles. It uses local-first AI agents, vector databases, and blockchain attestation to solve the oracle problem in RWA tokenization.',
     },
     {
       question: 'How does the verification process work?',
       answer:
-        'Our autonomous AI swarm analyzes artifacts through four steps: (1) Data ingestion of scans and documentation, (2) Multi-agent analysis using specialized roles, (3) Consensus building with ReasoningBank, and (4) Blockchain attestation on Ethereum for immutable authentication records.',
+        'Our autonomous AI swarm analyzes assets through four steps: (1) Data ingestion of scans and documentation, (2) Multi-agent analysis using specialized roles, (3) Consensus building with ReasoningBank, and (4) Blockchain attestation on Ethereum for immutable authentication records.'
     },
     {
       question: 'What makes Shenbury different from centralized verification?',
@@ -43,12 +43,12 @@ export const FAQ = () => {
     {
       question: 'How does Shenbury ensure data privacy?',
       answer:
-        'Our entire stack runs locally: AgentDB for vector storage, transformers.js for embeddings, and ReasoningBank for learning. All artifact data remains on your infrastructure with no external API calls or cloud dependencies, ensuring complete privacy and data sovereignty.',
+        'Our entire stack runs locally: AgentDB for vector storage, transformers.js for embeddings, and ReasoningBank for learning. All asset data remains on your infrastructure with no external API calls or cloud dependencies, ensuring complete privacy and data sovereignty.'
     },
     {
-      question: 'What types of artifacts can Shenbury verify?',
+      question: 'What types of assets can Shenbury verify?',
       answer:
-        'Shenbury is designed for high-value cultural artifacts including fine art, antiques, historical documents, rare collectibles, and archaeological finds. Our AI agents specialize in visual analysis, chemical composition verification, and historical documentation analysis.',
+        'Shenbury is designed for museum-grade assets including fine art, antiques, historical documents, rare collectibles, and archaeological finds. Our AI agents specialize in visual analysis, chemical composition verification, and historical documentation analysis.'
     },
     {
       question: 'How can I participate in the ICO?',

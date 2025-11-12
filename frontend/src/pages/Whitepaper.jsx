@@ -60,7 +60,7 @@ export const Whitepaper = () => {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">Shenbury</strong> introduces a decentralized, self-contained intelligence infrastructure for verifying and tokenizing fine art and historical artifacts. At its core, Shenbury's <strong className="text-foreground">AI Agent Swarm</strong> combines local vector reasoning, closed-loop learning, and on-chain authentication. Each agent operates independently using a fully local stack — database, embedding, and learning layers — with no reliance on external APIs or cloud systems.
+                <strong className="text-foreground">Shenbury</strong> introduces a decentralized, self-contained intelligence infrastructure for verifying and tokenizing museum-grade assets. At its core, Shenbury's <strong className="text-foreground">AI Agent Swarm</strong> combines local vector reasoning, closed-loop learning, and on-chain authentication. Each agent operates independently using a fully local stack — database, embedding, and learning layers — with no reliance on external APIs or cloud systems.
               </p>
               <p>
                 This document formalizes Shenbury's mathematical foundations, learning dynamics, and authentication chain integration.
@@ -98,7 +98,7 @@ export const Whitepaper = () => {
                   { num: '2', title: 'ReasoningBank', desc: 'Closed-loop reinforcement and knowledge synthesis' },
                   { num: '3', title: 'Agentic-Flow', desc: 'Multi-agent orchestration and adaptive task allocation' },
                   { num: '4', title: 'Claude-Flow', desc: 'Distributed memory and swarm synchronization' },
-                  { num: '5', title: 'Authentication Chain', desc: 'Blockchain registry of authenticated artifacts' },
+                  { num: '5', title: 'Authentication Chain', desc: 'Blockchain registry of authenticated assets' },
                 ].map((layer) => (
                   <div key={layer.num} className="glass rounded-lg p-4 border border-primary/20">
                     <div className="flex items-start gap-3">
@@ -235,7 +235,7 @@ export const Whitepaper = () => {
                 Shenbury establishes a new computational paradigm: <strong className="text-foreground">self-contained AI agents</strong> that learn, reason, and preserve institutional memory without external dependencies.
               </p>
               <p>
-                By bringing cryptographically verifiable authentication to high-value cultural assets, Shenbury unlocks latent liquidity in the art market and enables secure, on-chain participation in Real World Assets.
+                By bringing cryptographically verifiable authentication to museum-grade assets, Shenbury unlocks latent liquidity in the art market and enables secure, on-chain participation in Real World Assets.
               </p>
             </CardContent>
           </Card>

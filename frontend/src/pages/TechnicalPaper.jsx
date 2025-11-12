@@ -61,7 +61,7 @@ export const TechnicalPaper = () => {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                The Shenbury AI-Powered Authentication Protocol introduces a decentralized, multi-agent AI system for the cryptographic-grade object verification of high-value cultural artifacts. The primary challenge in the multi-billion dollar art market is information asymmetry and the opacity of authentication, which constrains liquidity and trust.
+                The Shenbury AI-Powered Authentication Protocol introduces a decentralized, multi-agent AI system for the cryptographic-grade object verification of museum-grade assets. The primary challenge in the multi-billion dollar art market is information asymmetry and the opacity of authentication, which constrains liquidity and trust.
               </p>
               <p>
                 Our protocol solves this by fusing a resilient, self-contained AI stack with an immutable on-chain ledger. This system is built on a <strong className="text-foreground">"zero-cost" framework</strong> that runs locally with no external dependencies, eliminating API fees and ensuring data privacy.
@@ -202,7 +202,7 @@ export const TechnicalPaper = () => {
                   {
                     step: '1',
                     title: 'Data Ingestion',
-                    desc: 'A new artifact (e.g., a Ming Dynasty vase) is submitted. All known data is ingested: high-resolution 3D scans, pigment chemical analysis, and known documentation.',
+                    desc: 'A new asset (e.g., a Ming Dynasty vase) is submitted. All known data is ingested: high-resolution 3D scans, pigment chemical analysis, and known documentation.'
                   },
                   {
                     step: '2',

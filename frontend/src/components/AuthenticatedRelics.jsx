@@ -70,7 +70,7 @@ export const AuthenticatedRelics = () => {
             <span className="text-gradient-gold">Tokenized Relics</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Explore our authenticated collection of museum-quality cultural treasures, verified by autonomous AI agents and secured on the blockchain.
+            Explore our authenticated collection of museum-grade fine art and collectibles, verified by autonomous AI agents and secured on the blockchain.
           </p>
         </div>
 

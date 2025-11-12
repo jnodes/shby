@@ -79,7 +79,7 @@ export const OperatingAgreement = () => {
                 <strong className="text-foreground">1.2 Name.</strong> The name of the DAO shall be "Shenbury DAO" or such other name as determined by governance vote.
               </p>
               <p>
-                <strong className="text-foreground">1.3 Purpose.</strong> The purpose of the DAO is to develop, deploy, and operate decentralized AI systems for the authentication and tokenization of real-world assets, particularly fine art and historical artifacts.
+                <strong className="text-foreground">1.3 Purpose.</strong> The purpose of the DAO is to develop, deploy, and operate decentralized AI systems for the authentication and tokenization of real-world assets, particularly fine art and collectibles.
               </p>
             </CardContent>
           </Card>

@@ -17,7 +17,7 @@ export const Features = () => {
     {
       icon: TrendingUp,
       title: 'Asset Tokenization',
-      description: 'Convert verified high-value cultural artifacts into liquid, tradable digital assets with transparent ownership records.',
+      description: 'Convert verified museum-grade assets into liquid, tradable digital assets with transparent ownership records.'
     },
     {
       icon: Shield,

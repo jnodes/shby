@@ -48,7 +48,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              AI-verified asset tokenization for cultural treasures. 神堡
+              AI-verified asset tokenization for fine art and collectibles. 神堡
             </p>
             {/* Social Links */}
             <div className="flex gap-3">

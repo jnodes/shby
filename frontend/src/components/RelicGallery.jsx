@@ -229,7 +229,7 @@ export const RelicGallery = () => {
             <span className="text-gradient-gold">Relic Gallery</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Explore our collection of cultural treasures in the verification pipeline. These artifacts are undergoing authentication by our autonomous AI agents.
+            Explore our collection of museum-grade assets in the verification pipeline. These fine art and collectibles are undergoing authentication by our autonomous AI agents.
           </p>
         </div>
 
