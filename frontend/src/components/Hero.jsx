@@ -24,8 +24,6 @@ export const Hero = () => {
 
             <h1 className="font-serif font-bold leading-tight">
               Verify. Tokenize. Trade.
-              <br />
-              <span className="text-gradient-gold">The AI Oracle for Fine Art.</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
