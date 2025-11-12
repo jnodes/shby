@@ -213,7 +213,7 @@ export const RelicGallery = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   return (
-    <section id="relic-gallery" className="py-20 sm:py-32 relative overflow-hidden">
+    <section id="verified-assets" className="py-20 sm:py-32 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-subtle" />
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-secondary/5 rounded-full blur-3xl" />
@@ -226,7 +226,7 @@ export const RelicGallery = () => {
             Verification Pipeline
           </Badge>
           <h2 className="font-serif font-bold mb-6">
-            <span className="text-gradient-gold">Relic Gallery</span>
+            <span className="text-gradient-gold">Verified Assets Gallery</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Explore our collection of museum-grade assets in the verification pipeline. These fine art and collectibles are undergoing authentication by our autonomous AI agents.
