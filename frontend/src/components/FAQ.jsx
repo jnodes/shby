@@ -28,7 +28,7 @@ export const FAQ = () => {
     {
       question: "What is Shenbury's revenue model?",
       answer:
-        "The DAO generates revenue by charging protocol fees when verified assets are brought to market, such as through auction house partnerships or on-chain marketplaces. These fees contribute directly to the DAO treasury, funding operations and ecosystem growth.",
+        "The Shenbury treasury earns revenue when artworks are sold in private sales or auctions. This simple, transaction-based model funds the DAO, supports protocol development, and grows the ecosystem.",
     },
     {
       question: 'How does the MetaDAO ICO work?',
