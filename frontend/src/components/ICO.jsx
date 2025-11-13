@@ -111,6 +111,7 @@ export const ICO = () => {
                   'Solving a multi-billion dollar market problem',
                   'Proprietary AI technology with optimized performance',
                   'Complete data privacy (local-first architecture)',
+                  'Transparent monthly budget allocations',
                 ].map((point, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
@@ -124,7 +125,6 @@ export const ICO = () => {
                   'Treasury earns revenue from auction & private sale fees',
                   'Fair launch model with community governance',
                   'Performance-based token unlock mechanism',
-                  'Transparent monthly budget allocations',
                 ].map((point, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
