@@ -14,7 +14,7 @@ export const ICO = () => {
     {
       icon: TrendingUp,
       title: 'Performance-Based Unlocks',
-      description: 'Remaining token supply are vested released only when ICO price milestones are reached.',
+      description: 'Remaining token supply are vested, released only when ICO price milestones are reached.',
     },
     {
       icon: Users,
@@ -121,7 +121,7 @@ export const ICO = () => {
               </div>
               <div className="space-y-4">
                 {[
-                  '$600-700M verified client pipeline',
+                  '$600-700M verified collection pipeline',
                   'Treasury earns revenue from auction & private sale fees',
                   'Fair launch model with community governance',
                   'Performance-based token unlock mechanism',
