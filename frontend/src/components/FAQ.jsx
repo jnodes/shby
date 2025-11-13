@@ -11,35 +11,31 @@ import { Badge } from './ui/badge';
 export const FAQ = () => {
   const faqs = [
     {
-      question: 'What is the Shenbury AI Protocol?',
+      question: 'What is Shenbury?',
       answer:
-        'The Shenbury AI-Powered Authentication Protocol is a decentralized, multi-agent AI system for cryptographic-grade verification of museum-grade fine art and collectibles. It uses local-first AI agents, vector databases, and blockchain attestation to solve the oracle problem in RWA tokenization.',
+        'Shenbury is building the privacy-first AI oracle for fine art and real-world asset (RWA) tokenization. Our autonomous AI swarm provides cryptographic-grade verification for museum-grade assets, turning illiquid cultural treasures into liquid, on-chain RWAs.'
     },
     {
-      question: 'How does the verification process work?',
+      question: 'How does Shenbury work?',
       answer:
         'Our autonomous AI swarm analyzes assets through four steps: (1) Data ingestion of scans and documentation, (2) Multi-agent analysis using specialized roles, (3) Consensus building with ReasoningBank, and (4) Blockchain attestation on Ethereum for immutable authentication records.'
     },
     {
       question: 'What makes Shenbury different from centralized verification?',
       answer:
-        'Unlike traditional methods that rely on human experts (subject to bias), Shenbury uses autonomous AI agents that operate locally without cloud dependencies. This ensures complete data privacy, eliminates single points of failure, and provides unbiased, data-driven verification.',
+        'Unlike traditional methods that rely on human experts (subject to bias), Shenbury uses autonomous AI agents that operate locally without cloud dependencies. This ensures complete data privacy, eliminates single points of failure, and provides unbiased, data-driven verification.'
     },
     {
       question: "What is Shenbury's revenue model?",
       answer:
-        "The Shenbury treasury earns revenue when artworks are sold in private sales or auctions. This simple, transaction-based model funds the DAO, supports protocol development, and grows the ecosystem.",
+        "The Shenbury treasury earns revenue when artworks are sold in private sales or auctions. This simple, transaction-based model funds the DAO, supports protocol development, and grows the ecosystem."
     },
     {
       question: 'How does the MetaDAO ICO work?',
-      answer:
-        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets. Remaining tokens are vested over an 18-month period.',
-    },
-    {
-      question: 'What are the key financial details of the ICO?',
       answer: [
-        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline. ',
-        'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested and released only when ICO price milestones are reached.',
+        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets.',
+        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline.',
+        'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested over an 18-month period and released only when ICO price milestones are reached.',
         'Treasury funds are governed by the community and allocated for ecosystem development, partnerships, and technology advancement.'
       ]
     },
@@ -56,7 +52,7 @@ export const FAQ = () => {
     {
       question: 'How can I participate in the ICO?',
       answer:
-        'ICO launch date will be announced soon. Join our community channels and follow our updates to be notified when the commitment window opens. You\'ll be able to commit USDC during the 4-day window for pro rata token allocation.',
+        'ICO launch date will be announced soon. Join our community channels and follow our updates to be notified when the commitment window opens. You\'ll be able to commit USDC during the 4-day window for pro rata token allocation.'
     },
   ];
 
