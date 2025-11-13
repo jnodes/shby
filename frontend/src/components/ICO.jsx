@@ -24,14 +24,14 @@ export const ICO = () => {
     {
       icon: Lock,
       title: 'Monthly Development Budgets',
-      description: '$15,000 monthly budget for continued protocol development, team operations, and IT.',
+      description: '$20,000 monthly budget for continued protocol development, team operations, and IT.',
     },
   ];
 
   const tokenomics = [
     { label: 'Minimum Raise', value: '$300,000' },
     { label: 'Collection Pipeline', value: '$600-700M' },
-    { label: 'Monthly Budget', value: '$15,000' },
+    { label: 'Monthly Budget', value: '$20,000' },
     { label: 'Launch Model', value: 'MetaDAO Fair Launch' },
   ];
 

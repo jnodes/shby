@@ -36,9 +36,12 @@ export const FAQ = () => {
         'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets.',
     },
     {
-      question: 'What is the minimum raise amount?',
-      answer:
-        'The minimum raise for our ICO is $300,000. Funds will support our $15,000 monthly team budget and ecosystem development as we pursue our $600-700M client pipeline.',
+      question: 'What are the key financial details of the ICO?',
+      answer: [
+        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline.',
+        'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested and released only when ICO price milestones are reached.',
+        'Treasury funds are governed by the community and allocated for ecosystem development, partnerships, and technology advancement.'
+      ]
     },
     {
       question: 'How does Shenbury ensure data privacy?',
