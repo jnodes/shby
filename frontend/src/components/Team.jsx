@@ -8,7 +8,7 @@ export const Team = () => {
   const teamMembers = [
     {
       name: 'Jesse Brown',
-      role: 'Founder & Chief Architect',
+      role: 'DAO Lead & Protocol Architect',
       focus: 'AI Systems & Blockchain Infrastructure',
       linkedin: 'https://linkedin.com/in/digitalassets',
       image: 'https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/s2gsj75x_jesse-brown.png',
