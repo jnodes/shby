@@ -18,7 +18,7 @@ export const Footer = () => {
       { name: 'Terms & Conditions', href: '/terms-and-conditions' },
       { name: 'GitHub', href: 'https://github.com/jnodes/shenbury-ai' },
     ],
-    Company: [
+    DAO: [
       { name: 'Labs', href: '#team' },
       { name: 'GitHub', href: 'https://github.com/jnodes/shenbury-ai' },
     ],
