@@ -17,7 +17,7 @@ export const Navigation = () => {
   const navLinks = [
     { name: 'Technology', href: '#technology' },
     { name: 'Features', href: '#features' },
-    { name: 'Assets', href: '#verified-assets' },
+    { name: 'Assets', href: '#single-artwork' },
     { name: 'ICO', href: '#ico' },
     { name: 'Labs', href: '#team' },
   ];

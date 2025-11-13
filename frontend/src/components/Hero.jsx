@@ -99,12 +99,12 @@ export const Hero = () => {
 
               {/* Floating Detail Card - Hidden on mobile to prevent overlay */}
               <button
-                onClick={() => document.getElementById('verified-assets')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('single-artwork')?.scrollIntoView({ behavior: 'smooth' })}
                 className="hidden lg:block absolute -bottom-6 -left-6 glass rounded-xl p-4 shadow-elegant hover-lift cursor-pointer group transition-all duration-300 hover:scale-105"
               >
                 <img
                   src="https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/cr3lvkmu_detail-1.jpg"
-                  alt="View Verified Assets"
+                  alt="View Authenticated Asset"
                   className="w-32 h-32 object-cover rounded-lg"
                 />
                 <div className="mt-2">
