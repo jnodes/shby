@@ -33,10 +33,10 @@ export const SingleArtworkShowcase = () => {
     },
     culturalSignificance: 'Qianlong period cloisonné represents the technical zenith of this art form. The emperor\'s personal patronage led to innovations in color palette and design complexity. Pieces from the imperial workshops are distinguished by their exceptional quality and symbolic motifs.',
     historicalContext: 'This teapot was likely used in imperial ceremonies or as a diplomatic gift. The dragon motifs indicate imperial ownership, while the floral patterns reflect the emperor\'s interest in naturalistic designs. The piece exemplifies the fusion of traditional Chinese techniques with influences from the court\'s cosmopolitan culture.',
-    aiEvaluation: '$8,500,000',
+    aiEvaluation: '$4,200,000',
     verificationStatus: 'Blockchain Verified',
     verificationDate: 'November 2025',
-    confidenceScore: '99.7%',
+    confidenceScore: '92.5%',
     // Scientific data summaries instead of PDF links
     xrfAnalysis: {
       summary: 'XRF spectroscopy analysis confirms authentic Qing Dynasty materials and manufacturing techniques.',
@@ -47,7 +47,7 @@ export const SingleArtworkShowcase = () => {
         { element: 'Tin', percentage: '3.1%', significance: 'Gilding layer composition' },
         { element: 'Gold', percentage: '1.9%', significance: 'Surface decoration, authentic period application' }
       ],
-      conclusion: 'Elemental composition matches documented Qianlong imperial workshop standards with 99.7% confidence.'
+      conclusion: 'Elemental composition matches documented Qianlong imperial workshop standards with 92.5% confidence.'
     },
     visualAnalysis: {
       summary: 'Multi-spectral imaging analysis confirms authentic aging patterns and manufacturing techniques.',
@@ -57,7 +57,7 @@ export const SingleArtworkShowcase = () => {
         'Crack patterns in enamel follow authentic thermal expansion characteristics',
         'Metal base shows appropriate patination for period and environment'
       ],
-      confidence: '99.8%'
+      confidence: '93.2%'
     }
   };
 
@@ -73,7 +73,7 @@ export const SingleArtworkShowcase = () => {
     { icon: Shield, label: 'AI Verified', value: relic.confidenceScore },
     { icon: Lock, label: 'Blockchain', value: 'Ethereum' },
     { icon: Calendar, label: 'Verified', value: relic.verificationDate },
-    { icon: Award, label: 'Authenticity', value: 'Certified' },
+    { icon: Award, label: 'Authenticity', value: 'Expert Reviewed' },
   ];
 
   return (
@@ -301,7 +301,7 @@ export const SingleArtworkShowcase = () => {
                     <div>
                       <p className="font-semibold text-foreground mb-1">Conclusion: {relic.xrfAnalysis.conclusion}</p>
                       <p className="text-sm text-muted-foreground">
-                        XRF analysis confirms material authenticity with 99.7% confidence level.
+                        XRF analysis confirms material authenticity with 92.5% confidence level. Final authentication verified by recognized expert with supporting documentation.
                       </p>
                     </div>
                   </div>
@@ -328,7 +328,7 @@ export const SingleArtworkShowcase = () => {
                     <div>
                       <p className="font-semibold text-foreground mb-1">Confidence Level: {relic.visualAnalysis.confidence}</p>
                       <p className="text-sm text-muted-foreground">
-                        Visual analysis confirms authenticity through aging patterns and manufacturing techniques.
+                        Visual analysis confirms authenticity through aging patterns and manufacturing techniques. Final authentication verified by recognized expert with supporting documentation.
                       </p>
                     </div>
                   </div>
