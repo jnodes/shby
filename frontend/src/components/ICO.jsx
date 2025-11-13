@@ -111,7 +111,6 @@ export const ICO = () => {
                   'Solving a multi-billion dollar market problem',
                   'Proprietary AI technology with optimized performance',
                   'Complete data privacy (local-first architecture)',
-                  'Experienced public leadership team',
                 ].map((point, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
