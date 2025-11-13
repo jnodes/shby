@@ -58,6 +58,17 @@ export const SingleArtworkShowcase = () => {
         'Metal base shows appropriate patination for period and environment'
       ],
       confidence: '93.2%'
+    },
+    videoAnalysis: {
+      summary: 'High-resolution video analysis captures detailed surface characteristics and structural integrity.',
+      findings: [
+        'Micro-fracture analysis confirms age-appropriate stress patterns',
+        'Surface patination consistent with documented Qianlong period examples',
+        'Gilding application technique matches imperial workshop standards',
+        'Structural integrity assessment shows no modern repairs or alterations'
+      ],
+      confidence: '94.1%',
+      videoPath: '/videos/013-qianlong-royal-cloisonne-teapot.mp4'
     }
   };
 
@@ -220,16 +231,21 @@ export const SingleArtworkShowcase = () => {
             </Card>
 
             {/* Analysis Summaries */}
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-3 gap-3">
               <div className="glass rounded-lg p-3 border border-card-border text-center">
                 <Activity className="w-5 h-5 text-primary-glow mx-auto mb-1" />
                 <span className="text-xs text-foreground">XRF Analysis</span>
-                <p className="text-xs text-muted-foreground mt-1">99.7% Match</p>
+                <p className="text-xs text-muted-foreground mt-1">92.5% Match</p>
               </div>
               <div className="glass rounded-lg p-3 border border-card-border text-center">
                 <Eye className="w-5 h-5 text-primary-glow mx-auto mb-1" />
                 <span className="text-xs text-foreground">Visual Analysis</span>
-                <p className="text-xs text-muted-foreground mt-1">99.8% Match</p>
+                <p className="text-xs text-muted-foreground mt-1">93.2% Match</p>
+              </div>
+              <div className="glass rounded-lg p-3 border border-card-border text-center">
+                <FileText className="w-5 h-5 text-primary-glow mx-auto mb-1" />
+                <span className="text-xs text-foreground">Video Analysis</span>
+                <p className="text-xs text-muted-foreground mt-1">94.1% Match</p>
               </div>
             </div>
 
@@ -253,6 +269,7 @@ export const SingleArtworkShowcase = () => {
                 <TabsTrigger value="dimensions">Dimensions</TabsTrigger>
                 <TabsTrigger value="xrf">XRF Analysis</TabsTrigger>
                 <TabsTrigger value="visual">Visual Analysis</TabsTrigger>
+                <TabsTrigger value="video">Video Analysis</TabsTrigger>
               </TabsList>
 
               <TabsContent value="description" className="space-y-4">
@@ -329,6 +346,45 @@ export const SingleArtworkShowcase = () => {
                       <p className="font-semibold text-foreground mb-1">Confidence Level: {relic.visualAnalysis.confidence}</p>
                       <p className="text-sm text-muted-foreground">
                         Visual analysis confirms authenticity through aging patterns and manufacturing techniques. Final authentication verified by recognized expert with supporting documentation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </TabsContent>
+
+              <TabsContent value="video">
+                <h4 className="font-serif font-semibold text-lg mb-3 text-foreground">High-Resolution Video Analysis</h4>
+                <p className="text-muted-foreground leading-relaxed mb-4">{relic.videoAnalysis.summary}</p>
+                
+                {/* Video Player */}
+                <div className="aspect-video rounded-xl overflow-hidden glass border border-card-border mb-6">
+                  <video 
+                    controls 
+                    className="w-full h-full object-cover"
+                    poster={relic.images[0]}
+                  >
+                    <source src={relic.videoAnalysis.videoPath} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                
+                <div className="space-y-3 mb-4">
+                  <h5 className="font-medium text-foreground">Key Findings:</h5>
+                  {relic.videoAnalysis.findings.map((finding, index) => (
+                    <div key={index} className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                      <p className="text-muted-foreground">{finding}</p>
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="glass rounded-lg p-4 border border-primary/20">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="font-semibold text-foreground mb-1">Confidence Level: {relic.videoAnalysis.confidence}</p>
+                      <p className="text-sm text-muted-foreground">
+                        Video analysis provides detailed surface and structural examination. Final authentication verified by recognized expert with supporting documentation.
                       </p>
                     </div>
                   </div>
