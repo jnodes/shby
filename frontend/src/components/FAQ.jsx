@@ -38,7 +38,7 @@ export const FAQ = () => {
     {
       question: 'What are the key financial details of the ICO?',
       answer: [
-        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline.',
+        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline. ',
         'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested and released only when ICO price milestones are reached.',
         'Treasury funds are governed by the community and allocated for ecosystem development, partnerships, and technology advancement.'
       ]
