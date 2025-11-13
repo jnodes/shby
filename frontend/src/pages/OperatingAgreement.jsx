@@ -114,23 +114,23 @@ export const OperatingAgreement = () => {
             </CardContent>
           </Card>
 
-          {/* Article III - Governance */}
+          {/* Article III - Voting and Governance */}
           <Card className="glass border-card-border mb-8">
             <CardHeader>
-              <CardTitle className="text-2xl font-serif text-foreground">Article III: Governance</CardTitle>
+              <CardTitle className="text-2xl font-serif text-foreground">Article III: Voting and Governance</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">3.1 Decision Making.</strong> All material decisions affecting the DAO shall be made through token-weighted voting by members.
+                <strong className="text-foreground">3.1 Decision Markets.</strong> All proposals are decided through decision markets, where participants bet on how proposals would affect the value of the project. This futarchy-based governance system replaces traditional voting mechanisms.
               </p>
               <p>
-                <strong className="text-foreground">3.2 Quorum.</strong> A quorum of 10% of outstanding $SHBY tokens must participate for a vote to be valid.
+                <strong className="text-foreground">3.2 Quorum.</strong> A quorum of 10% of outstanding $SHBY tokens must participate for a decision market to be valid.
               </p>
               <p>
-                <strong className="text-foreground">3.3 Voting Period.</strong> All proposals shall remain open for voting for a minimum of 7 days.
+                <strong className="text-foreground">3.3 Market Period.</strong> All decision markets shall remain open for betting for a minimum of 7 days.
               </p>
               <p>
-                <strong className="text-foreground">3.4 Approval Threshold.</strong> Proposals require a simple majority (50% + 1) of votes cast to be approved.
+                <strong className="text-foreground">3.4 Outcome Determination.</strong> Proposals are approved based on the market prediction of positive value impact. The option predicted to increase project value is implemented.
               </p>
             </CardContent>
           </Card>
@@ -142,16 +142,16 @@ export const OperatingAgreement = () => {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">4.1 Treasury Management.</strong> The DAO treasury shall be managed through multi-signature wallets controlled by elected treasurers.
+                <strong className="text-foreground">4.1 Treasury Management.</strong> The DAO treasury is a futarchy-governed system where all USDC is locked and managed through decision markets. Contributors must raise proposals to utilize treasury funds.
               </p>
               <p>
-                <strong className="text-foreground">4.2 Budget Approval.</strong> Annual budgets must be approved by member vote.
+                <strong className="text-foreground">4.2 Proposal Process.</strong> Treasury utilization proposals are decided through decision markets, where people bet on how proposals would affect the value of the project. Team allocations and any potential emissions are also decided in this way.
               </p>
               <p>
                 <strong className="text-foreground">4.3 Financial Reporting.</strong> Quarterly financial reports shall be published to all members.
               </p>
               <p>
-                <strong className="text-foreground">4.4 Distributions.</strong> Any distributions to members require approval by 60% supermajority vote.
+                <strong className="text-foreground">4.4 Distributions.</strong> Any distributions to members require approval through decision markets with a positive value impact prediction.
               </p>
             </CardContent>
           </Card>

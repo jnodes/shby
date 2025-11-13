@@ -18,8 +18,8 @@ export const ICO = () => {
     },
     {
       icon: Users,
-      title: 'Governed Treasury',
-      description: 'Community-controlled funds allocated for ecosystem development, partnerships, and technology advancement.',
+      title: 'Futarchy-Governed Treasury',
+      description: 'All USDC locked in futarchy-governed DAO treasury. Proposals decided through decision markets where people bet on outcomes.',
     },
     {
       icon: Lock,
@@ -32,7 +32,7 @@ export const ICO = () => {
     { label: 'Minimum Raise', value: '$300,000' },
     { label: 'Collection Pipeline', value: '$600-700M' },
     { label: 'Monthly Budget', value: '$20,000' },
-    { label: 'Launch Model', value: 'MetaDAO Fair Launch' },
+    { label: 'Futarchy Launch', value: 'MetaDAO Fair Launch' },
   ];
 
   return (
@@ -52,7 +52,7 @@ export const ICO = () => {
             Join the <span className="text-gradient-gold">MetaDAO ICO</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Participate in our fair launch with pro rata allocations, governed treasury, and performance-based token unlocks.
+            Participate in our fair launch with pro rata allocations, futarchy-governed treasury, and performance-based token unlocks.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export const ICO = () => {
                 {[
                   '$600-700M verified collection pipeline',
                   'Treasury earns revenue from auction & private sale fees',
-                  'Fair launch model with community governance',
+                  'Futarchy governance with decision markets',
                   'Performance-based token unlock mechanism',
                 ].map((point, idx) => (
                   <div key={idx} className="flex items-start gap-3">

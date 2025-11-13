@@ -13,7 +13,7 @@ export const FAQ = () => {
     {
       question: 'What is Shenbury?',
       answer:
-        'Shenbury is building the privacy-first AI oracle for fine art and real-world asset (RWA) tokenization. Our autonomous AI swarm provides cryptographic-grade verification for museum-grade assets, turning illiquid cultural treasures into liquid, on-chain RWAs.'
+        'Shenbury is building the privacy-first AI oracle for fine art and real-world asset (RWA) tokenization. Our autonomous AI swarm provides cryptographic-grade verification for museum-grade assets, turning illiquid cultural treasures into liquid, on-chain RWAs. Governed by a futarchy-based DAO with decision markets determining all major project decisions.'
     },
     {
       question: 'How does Shenbury work?',
@@ -33,10 +33,10 @@ export const FAQ = () => {
     {
       question: 'How does the MetaDAO ICO work?',
       answer: [
-        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets.',
-        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline.',
+        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with futarchy-governed treasury and monthly development budgets.',
+        'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline. ',
         'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested over an 18-month period and released only when ICO price milestones are reached.',
-        'Treasury funds are governed by the community and allocated for ecosystem development, partnerships, and technology advancement.'
+        'All USDC is locked in a futarchy-governed DAO treasury. Aside from the allowance, contributors must raise proposals to utilize the treasury. Proposals are decided through decision markets, where people bet on how proposals would affect the value of the project. Team allocations and any potential emissions are also decided in this way.'
       ]
     },
     {
