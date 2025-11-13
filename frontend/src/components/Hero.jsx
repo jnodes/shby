@@ -103,8 +103,8 @@ export const Hero = () => {
                 className="hidden lg:block absolute -bottom-6 -left-6 glass rounded-xl p-4 shadow-elegant hover-lift cursor-pointer group transition-all duration-300 hover:scale-105"
               >
                 <img
-                  src="/images/relics/003-ming-cloisonne/detail-1.jpg"
-                  alt="View Authenticated Ming Cloisonné"
+                  src="/images/relics/013-qianlong-royal-cloisonne-teapot/detail-1.png"
+                  alt="View Authenticated Qianlong Teapot"
                   className="w-32 h-32 object-cover rounded-lg"
                 />
                 <div className="mt-2">
