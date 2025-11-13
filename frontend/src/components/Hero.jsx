@@ -75,7 +75,7 @@ export const Hero = () => {
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">$600M+</div>
-                <div className="text-sm text-muted-foreground mt-1">Client Pipeline</div>
+                <div className="text-sm text-muted-foreground mt-1">Collection Pipeline</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-serif font-semibold text-gradient-gold">Optimized</div>

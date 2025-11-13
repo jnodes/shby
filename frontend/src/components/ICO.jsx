@@ -30,7 +30,7 @@ export const ICO = () => {
 
   const tokenomics = [
     { label: 'Minimum Raise', value: '$300,000' },
-    { label: 'Client Pipeline', value: '$600-700M' },
+    { label: 'Collection Pipeline', value: '$600-700M' },
     { label: 'Monthly Budget', value: '$15,000' },
     { label: 'Launch Model', value: 'MetaDAO Fair Launch' },
   ];
