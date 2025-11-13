@@ -35,7 +35,7 @@ export const FAQ = () => {
       answer: [
         'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with futarchy-governed treasury and monthly development budgets.',
         'The minimum raise for our ICO is $300,000. Funds will support our $20,000 monthly team budget and ecosystem development as we pursue our $600-700M collection pipeline. ',
-        'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested over an 18-month period and released only when ICO price milestones are reached.',
+        'Our token distribution follows a fair launch model with performance-based unlocks. The initial allocation covers the commitment window, with remaining tokens vested over an 18-month period and released only when ICO price milestones are reached. ',
         'All USDC is locked in a futarchy-governed DAO treasury. Aside from the allowance, contributors must raise proposals to utilize the treasury. Proposals are decided through decision markets, where people bet on how proposals would affect the value of the project. Team allocations and any potential emissions are also decided in this way.'
       ]
     },
