@@ -12,10 +12,10 @@ export const Team = () => {
       focus: 'AI Systems & Blockchain Infrastructure',
       linkedin: 'https://linkedin.com/in/digitalassets',
       image: 'https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/s2gsj75x_jesse-brown.png',
-      bio: 'Leading Shenbury\'s AI-powered authentication protocol with deep expertise in institutional-grade tokenization and multi-agent AI systems. Former Blockchain Architect at DTCC, where he built the Forbes Blockchain Award-winning private placement tokenization platform. Architected autonomous compliance systems for Web3 platforms and led technology strategy for Himalaya Exchange. Specialized in real-world asset tokenization, privacy-preserving technologies, and regulatory compliance frameworks.',
+      bio: 'Leading Shenbury\'s AI-powered authentication protocol with deep expertise in institutional-grade tokenization and multi-agent AI systems. Former Blockchain Architect at DTCC, where he built the Forbes Blockchain Award-winning private placement tokenization platform. Led blockchain solutions for Ford Motor Credit Company, focusing on automotive financing ecosystem innovations. Specialized in real-world asset tokenization, privacy-preserving technologies, and regulatory compliance frameworks.',
       highlights: [
         'Built DTCC\'s first distributed ledger technology project (Forbes Blockchain Award Winner 2020)',
-        'Architected multi-agent AI compliance systems with sub-3-second verification',
+        'Led cross-functional teams to deliver enterprise blockchain solutions with reduced settlement times',
         'Designed institutional-grade tokenization platforms for private placements',
         'Expert in privacy-preserving tech, smart contracts, and regulatory compliance',
       ]
