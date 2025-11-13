@@ -33,7 +33,7 @@ export const FAQ = () => {
     {
       question: 'How does the MetaDAO ICO work?',
       answer:
-        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets.',
+        'Our ICO uses MetaDAO\'s fair launch model with a 4-day commitment window. Participants commit USDC for pro rata token allocation. Up to 50% of tokens unlock at performance milestones (2x-32x ICO price), with governed treasury and monthly development budgets. Remaining tokens are vested over an 18-month period.',
     },
     {
       question: 'What are the key financial details of the ICO?',
