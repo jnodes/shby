@@ -90,8 +90,8 @@ export const Hero = () => {
               {/* Main Artifact Image */}
               <div className="relative h-full glass rounded-2xl overflow-hidden shadow-heavy hover-lift">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/toa30iy5_main.jpg"
-                  alt="Cloisonné Artifact"
+                  src="/images/relics/013-qianlong-royal-cloisonne-teapot/main.png"
+                  alt="Qianlong Royal Cloisonné Teapot"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-overlay" />
@@ -103,8 +103,8 @@ export const Hero = () => {
                 className="hidden lg:block absolute -bottom-6 -left-6 glass rounded-xl p-4 shadow-elegant hover-lift cursor-pointer group transition-all duration-300 hover:scale-105"
               >
                 <img
-                  src="https://customer-assets.emergentagent.com/job_modern-shenbury/artifacts/cr3lvkmu_detail-1.jpg"
-                  alt="View Authenticated Asset"
+                  src="/images/relics/013-qianlong-royal-cloisonne-teapot/detail-1.png"
+                  alt="View Authenticated Teapot"
                   className="w-32 h-32 object-cover rounded-lg"
                 />
                 <div className="mt-2">
