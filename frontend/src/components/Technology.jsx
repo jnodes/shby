@@ -14,7 +14,7 @@ export const Technology = () => {
     {
       icon: Database,
       title: 'AgentDB',
-      description: 'Local vector database with HNSW indexing achieving 150x faster performance than traditional solutions.',
+      description: 'Local vector database with HNSW indexing achieving optimized performance through decentralized resource allocation.',
       features: ['4-32x Compression', 'Sub-millisecond Queries', 'No Cloud Dependencies'],
     },
     {
@@ -110,8 +110,8 @@ export const Technology = () => {
         <div className="mt-16 glass rounded-2xl p-8 border border-card-border">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-serif font-semibold text-gradient-gold mb-2">150x</div>
-              <div className="text-sm text-muted-foreground">Faster Performance</div>
+              <div className="text-3xl font-serif font-semibold text-gradient-gold mb-2">Decentralized</div>
+              <div className="text-sm text-muted-foreground">AI at Scale</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-serif font-semibold text-gradient-gold mb-2">32x</div>

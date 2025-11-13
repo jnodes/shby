@@ -14,7 +14,7 @@ export const ICO = () => {
     {
       icon: TrendingUp,
       title: 'Performance-Based Unlocks',
-      description: 'Remaining token supply released when ICO price milestones are reached (2x, 4x, 8x, 16x, 32x).',
+      description: 'Remaining token supply are vested released only when ICO price milestones are reached.',
     },
     {
       icon: Users,
@@ -24,7 +24,7 @@ export const ICO = () => {
     {
       icon: Lock,
       title: 'Monthly Development Budgets',
-      description: '$15,000 monthly budget for continued protocol development and team operations.',
+      description: '$15,000 monthly budget for continued protocol development, team operations, and IT.',
     },
   ];
 
@@ -109,7 +109,7 @@ export const ICO = () => {
               <div className="space-y-4">
                 {[
                   'Solving a multi-billion dollar market problem',
-                  'Proprietary AI technology with 150x performance',
+                  'Proprietary AI technology with optimized performance',
                   'Complete data privacy (local-first architecture)',
                   'Experienced public leadership team',
                 ].map((point, idx) => (

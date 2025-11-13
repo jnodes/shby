@@ -157,7 +157,7 @@ export const TechnicalPaper = () => {
                   AgentDB is the foundational vector database that acts as the "long-term memory" for the entire swarm. It is optimized for the extreme performance required by real-time agentic systems.
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-sm text-muted-foreground ml-4">
-                  <li><strong className="text-foreground">Performance:</strong> Achieves 150x faster performance than traditional vector databases through HNSW indexing</li>
+                  <li><strong className="text-foreground">Performance:</strong> Achieves optimized performance through decentralized resource allocation compared to traditional vector databases</li>
                   <li><strong className="text-foreground">Efficiency:</strong> Utilizes vector quantization for 4x to 32x compression while preserving accuracy</li>
                 </ul>
               </div>
