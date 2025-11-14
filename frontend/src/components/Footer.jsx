@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,18 +16,17 @@ export const Footer = () => {
       { name: 'Technical Paper', href: '/technical-paper' },
       { name: 'Operating Agreement', href: '/operating-agreement' },
       { name: 'Terms & Conditions', href: '/terms-and-conditions' },
-      { name: 'GitHub', href: 'https://github.com/jnodes/shenbury-ai' },
+      { name: 'GitHub', href: 'https://github.com/jnodes/shby' },
     ],
     DAO: [
       { name: 'Labs', href: '#team' },
-      { name: 'GitHub', href: 'https://github.com/jnodes/shenbury-ai' },
+      { name: 'GitHub', href: 'https://github.com/jnodes/shby' },
     ],
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/jnodes/shenbury-ai', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/digitalassets', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:contact@shenbury.ai', label: 'Email' },
+    { icon: Github, href: 'https://github.com/jnodes/shby', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/shenbury-labs', label: 'LinkedIn' },
   ];
 
   return (
