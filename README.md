@@ -7,11 +7,9 @@ Shenbury labs is focused on developing innovative solutions for asset verificati
 Our core innovation is:
 **The Technology:** Our proprietary Shenbury AI-Powered Protocol, a local-first AI swarm built to verify assets and solve the "oracle problem" for RWA tokenization.
 
-We're preparing for our MetaDAO ICO launch with a minimum raise amount of $300,000 and a team monthly budget of $20,000, supporting our $600-700M collectable pipeline.
-
 **[English Version](README.md) | [中文版](README-zh.md)**
 
-For detailed technical documentation, our business model, and tokenomics, please refer to our [Whitepaper](public/whitepaper.html).
+For detailed technical documentation, our business model, and technology platform, please refer to our [Whitepaper](frontend/src/pages/Whitepaper.jsx).
 
 ## Key Technical Features 核心技術特性
 
@@ -31,9 +29,9 @@ Our Shenbury AI Protocol is our core technology, a decentralized, self-contained
 
 ## Technology Platform
 
-Our launch is built on our proprietary technology stack, including the Shenbury AI Agent Swarm, AgentDB vector database, and ReasoningBank closed-loop learning system. This technology represents years of research and development in autonomous AI systems for asset verification.
+Our platform is built on our proprietary technology stack, including the Shenbury AI Agent Swarm, AgentDB vector database, and ReasoningBank closed-loop learning system. This technology represents years of research and development in autonomous AI systems for asset verification.
 
-Learn more about our technology platform: [Shenbury Technology](public/index.html#technology)
+Learn more about our technology platform: [Shenbury Technology](frontend/src/components/Technology.jsx)
 
 ## Project Leadership
 
@@ -49,8 +47,8 @@ Shenbury is led by a public team to ensure trust and accountability.
 ### Installation 安裝
 ```bash
 # Clone the repository
-git clone https://github.com/jnodes/shenbury-ai.git
-cd shenbury-ai
+git clone https://github.com/jnodes/shby.git
+cd shby
 
 # Install dependencies
 npm install
@@ -65,9 +63,9 @@ npm run dev
 Visit http://localhost:3000 to view the application.
 
 ## Documentation 文檔
-- **[Whitepaper](public/whitepaper.html)** - Business model, tokenomics, and technology platform overview.
-- **[AI Protocol Technical Paper](public/ai-protocol.html)** - In-depth technical architecture of the Shenbury AI Protocol.
-- **[Operating Agreement](OPERATING-AGREEMENT.md)** - Legal framework and governance for Shenbury labs.
+- **[Whitepaper](frontend/src/pages/Whitepaper.jsx)** - Business model and technology platform overview.
+- **[AI Protocol Technical Paper](frontend/src/pages/TechnicalPaper.jsx)** - In-depth technical architecture of the Shenbury AI Protocol.
+- **[Operating Agreement](frontend/src/pages/OperatingAgreement.jsx)** - Legal framework and governance for Shenbury labs.
 
 ## Terms & Conditions 條款和條件
 
